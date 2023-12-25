@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, Phone } from "lucide-react";
 interface IFooterProps {
   className?: string;
 }
-const Footer = ({ className }: IFooterProps) => {
+const Footer = ({ className = "" }: IFooterProps) => {
   const iconsMedia = [
     {
       img: <Linkedin />,
@@ -41,7 +41,7 @@ const Footer = ({ className }: IFooterProps) => {
     </li>
   ));
   return (
-    <section className={`bg-secondary ${className}`}>
+    <section className={`bg-secondary ${className} mt-auto`}>
       <section className="container py-2 flex flex-col gap-3 md:flex-row md:justify-between items-center justify-center">
         <section className="flex flex-shrink-0 items-center">
           <Link to={""}>

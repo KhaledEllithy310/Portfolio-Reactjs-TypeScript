@@ -7,12 +7,12 @@ interface IPageTitleProps {
 const PageTitle = ({ title, currentPage }: IPageTitleProps) => {
   return (
     <section className="bg-accent mt-16 p-10 shadow-lg shadow-white/[.3]">
-      <p className="text-5xl capitalize mb-5 text-center text-secondary font-bold">
+      <p className="text-3xl md:text-5xl capitalize mb-5 text-center text-secondary font-bold">
         {title}
       </p>
       <section className=" flex items-center justify-center text-secondary">
-        <p className="text-xl  capitalize text-center ">
-          <Link to="/home" className="hover:underline ">
+        <p className=" text-lg md:text-xl capitalize text-center ">
+          <Link to="" className="hover:underline ">
             home
           </Link>
           - <span className="underline">{currentPage}</span>

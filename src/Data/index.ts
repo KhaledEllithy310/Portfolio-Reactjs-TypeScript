@@ -174,7 +174,7 @@ export const socialMedia = [
   },
   {
     img: "images/social/github-a2eafb2af9a1dcc15adc5435778e9625.svg",
-    title: "gitHup",
+    title: "Github",
     link: "https://github.com/KhaledEllithy310",
   },
 ];

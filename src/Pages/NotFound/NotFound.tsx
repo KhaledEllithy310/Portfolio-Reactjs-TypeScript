@@ -25,7 +25,7 @@ const NotFound = ({}: INotFoundProps) => {
           />
         </section>
       </section>
-      <Footer className="absolute right-0 left-0 bottom-0" />
+      <Footer className="fixed right-0 left-0 bottom-0" />
     </>
   );
 };

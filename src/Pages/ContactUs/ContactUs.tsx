@@ -17,7 +17,6 @@ const ContactUs = ({}: IContactUsProps) => {
 
         <section>
           <section>
-            {/* <p className="capitalize text-2xl text-primary py-4">follow me</p> */}
             <SecondaryTitle title="follow me" />
             <section className="grid grid-cols-1 md:grid-cols-4 gap-3">
               {socialMedia.map((item, index) => {

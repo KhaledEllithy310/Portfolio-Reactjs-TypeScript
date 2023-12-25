@@ -16,14 +16,18 @@ const AboutUs = ({}: IAboutUsProps) => {
       {/* introduction about me */}
       <main className="py-12 container my-5 mx-auto">
         <section className="bg-secondary p-7 rounded-2xl my-5">
-          <section className="flex items-center justify-center space-x-10">
+          <section className="flex items-center justify-center space-x-3 md:space-x-10">
             <Image
               imageURL={imagePortfolio}
-              className="rounded-full w-28 h-28"
+              className="rounded-full w-20 h-20 md:w-28 md:h-28"
             />
             <section className="text-white ">
-              <p className="tracking-wider text-3xl">Khaled Ellithy</p>
-              <p className="text-primary text-xl">Front End Developer</p>
+              <p className="tracking-wider text-lg md:text-3xl">
+                Khaled Ellithy
+              </p>
+              <p className="text-primary text-sm md:text-xl">
+                Front End Developer
+              </p>
             </section>
             {/* description about me */}
           </section>
