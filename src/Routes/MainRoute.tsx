@@ -12,10 +12,10 @@ export const router = createBrowserRouter([
     element: <MainLayout />,
 
     children: [
-      { path: "/home", element: <Home /> },
-      { path: "/about", element: <AboutUs /> },
-      { path: "/portfolio", element: <Portfolio /> },
-      { path: "/contact", element: <ContactUs /> },
+      { path: "home", element: <Home /> },
+      { path: "about", element: <AboutUs /> },
+      { path: "portfolio", element: <Portfolio /> },
+      { path: "contact", element: <ContactUs /> },
       // {
       //   path: "*",
       //   element: <NotFound />,
