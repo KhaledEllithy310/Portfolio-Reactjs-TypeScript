@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-btn {
+  @apply bg-primary text-background rounded-full;
+}
+
+.sec-btn {
+  @apply border-2 border-white hover:border-primary text-white hover:text-primary rounded-full  transition duration-150 ease-in-out;
+}
+
+.container-sec {
+  @apply container px-20 mx-auto;
+}
+
+/* :root {
+  --text: #000000;
+  --background: #f2ede6;
+  --primary: #29a385;
+  --secondary: #ffffff;
+  --accent: #191510;
+}
+:root.dark-mode {
+  --text: #ffffff;
+  --background: #232931;
+  --primary: #5cd6b8;
+  --secondary: #1d222a;
+  --accent: #efebe5;
+} */
+/* :root.dark-mode {
+  --text: #000205;
+  --background: #b9bdda;
+  --primary: #05f591;
+  --secondary: #979dc9;
+  --accent: #363c68;
+}
+:root {
+  --text: #fafcff;
+  --background: #252946;
+  --primary: #0afa96;
+  --secondary: #363c68;
+  --accent: #979dc9;
+} */
+:root.dark-mode {
+  --text: #000205;
+  --background: #b9bdda;
+  --primary: #05f591;
+  --secondary: #979dc9;
+  --accent: #363c68;
+}
+:root {
+  --text: #fafcff;
+  /* --background: hwb(198 4% 71%); */
+  --background: #2f3a65;
+  /* --background: #02567A; */
+  /* --background: #08445c; */
+  /* --primary: #b6510d; */
+  /* --primary: #cd6e10; */
+  /* --primary: #e98607; */
+  --primary: #f39422;
+  /* --secondary: #363c68; */
+  --secondary: #252946;
+  --accent: #636ebc;
+}
+/* #093649  #08445C  #02567A  #B6510D  #CD6E10  #E98607*/
+/* #2c4e81 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--background);
+  font-family: "Poppins", "serif";
+}
+
+.styleNameStork {
+  -webkit-text-stroke: 0.5px var(--accent);
+  -webkit-text-fill-color: var(--primary);
+}
+
+.styleJobStork {
+  -webkit-text-stroke: 0.5px var(--primary);
+  -webkit-text-fill-color: var(--accent);
+}
+
+.h-home {
+  height: calc(100vh - 73px);
+}
