@@ -18,7 +18,7 @@ const NotFound = ({}: INotFoundProps) => {
             changed or is temporarily unavailable
           </p>
           <ButtonLink
-            to={"/home"}
+            to={""}
             className="main-btn"
             width="w-30"
             title=" go to homepage"

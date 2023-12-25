@@ -33,8 +33,7 @@ const Navbar = ({ navigation }: INavbarProps) => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link to={"/home"}>
-                    {" "}
+                  <Link to={""}>
                     <img className=" h-10 md:h-14" src={logo} alt="logo" />
                   </Link>
                 </div>
@@ -57,7 +56,6 @@ const Navbar = ({ navigation }: INavbarProps) => {
                   </div>
                 </div>
               </div>
-          
             </div>
           </div>
 

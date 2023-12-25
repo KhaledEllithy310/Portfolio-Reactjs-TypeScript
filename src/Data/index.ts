@@ -1,7 +1,7 @@
 import { IFormInputs, INavigation } from "../Interfaces";
 
 export const navigation: INavigation[] = [
-  { name: "home", to: "/home" },
+  { name: "home", to: "" },
   { name: "about us", to: "/about" },
   // { name: "services", to: "/services" },
   { name: "portfolio", to: "/portfolio" },

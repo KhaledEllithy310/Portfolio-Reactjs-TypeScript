@@ -44,7 +44,7 @@ const Footer = ({ className }: IFooterProps) => {
     <section className={`bg-secondary ${className}`}>
       <section className="container py-2 flex flex-col gap-3 md:flex-row md:justify-between items-center justify-center">
         <section className="flex flex-shrink-0 items-center">
-          <Link to={"/home"}>
+          <Link to={""}>
             <img className="h-14" src={logo} alt="logo" />
           </Link>
         </section>
