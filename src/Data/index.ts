@@ -120,7 +120,7 @@ export const projects = {
       GitHub: "https://github.com/KhaledEllithy310/ShoesApp-React.Js",
     },
     {
-      img: "src/assets/images/projects/todoappReact.png",
+      img: "../assets/images/projects/todoappReact.png",
       title: "to do app",
       demo: "https://to-do-app-react-zeta.vercel.app/",
       GitHub: "https://github.com/KhaledEllithy310/ToDoApp-React",
