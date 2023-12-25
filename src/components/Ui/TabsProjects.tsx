@@ -130,7 +130,7 @@ const TabsProjects = () => {
                       <section className="relative w-full overflow-hidden h-44 rounded-md">
                         <Image
                           imageURL={project.img}
-                          className="rounded-md  w-full  absolute top-0"
+                          className="rounded-md  w-full  absolute top-0 z-0"
                         />
                       </section>
                       <h3 className="capitalize m-5 text-center text-neutral-200 text-lg font-semibold leading-5">

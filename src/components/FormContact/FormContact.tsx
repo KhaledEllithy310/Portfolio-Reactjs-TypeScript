@@ -1,7 +1,7 @@
 import { formContactInputs } from "../../Data";
 import Input from "../Ui/Input";
 import SecondaryTitle from "../Ui/SecondaryTitle";
-import img from "../../assets/images/send.jpg";
+import img from "/images/send.jpg";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { SubmitHandler, useForm } from "react-hook-form";

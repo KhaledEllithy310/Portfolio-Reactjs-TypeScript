@@ -17,11 +17,11 @@ const Navbar = ({ navigation }: INavbarProps) => {
   return (
     <Disclosure
       as="nav"
-      className="bg-secondary shadow-md fixed right-0 left-0 top-0"
+      className="bg-secondary shadow-md fixed right-0 left-0 top-0 z-50"
     >
       {({ open }) => (
         <>
-          <div className="mx-auto container">
+          <div className="mx-auto container ">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}

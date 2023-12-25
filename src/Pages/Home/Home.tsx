@@ -1,6 +1,6 @@
 import Introduction from "../../components/Introduction/Introduction";
 import Image from "../../components/Ui/Image";
-import img from "../../assets/images/khaledEllithy.jpg";
+import img from "/images/khaledEllithy.jpg";
 interface IHomeProps {}
 // eslint-disable-next-line no-empty-pattern
 const Home = ({}: IHomeProps) => {

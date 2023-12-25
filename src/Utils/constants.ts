@@ -1,6 +1,6 @@
-import Portfolio from "../assets/images/khaledEllithy.jpg";
+// import Portfolio from "/images/khaledEllithy.jpg";
 // import logoImg from "../assets/images/logo/logo-no-background.svg";
-import logoImg from "../assets/images/logo/logo-no-background.png";
+// import logoImg from "/images/logo/logo-no-background.png";
 
-export const imagePortfolio = Portfolio;
-export const logo = logoImg;
+export const imagePortfolio = "images/khaledEllithy.jpg";
+export const logo = "images/logo/logo-no-background.png";
