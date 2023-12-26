@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { logo } from "../../Utils/constants";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { logo } from "../../Data";
 
 interface IFooterProps {
   className?: string;

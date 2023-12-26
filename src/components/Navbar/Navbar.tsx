@@ -2,7 +2,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, X } from "lucide-react";
 import { INavigation } from "../../Interfaces";
 import { Link, useLocation } from "react-router-dom";
-import { logo } from "../../Utils/constants";
+import { logo } from "../../Data";
 interface INavbarProps {
   navigation: INavigation[];
 }

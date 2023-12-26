@@ -125,12 +125,12 @@ const TabsProjects = () => {
                   {projects.map((project, index) => (
                     <section
                       key={index}
-                      className=" rounded-md p-4 border border-white/[.2] hover:border-primary  bg-secondary"
+                      className="project-item rounded-md p-4 border border-white/[.2] hover:border-primary  bg-secondary"
                     >
-                      <section className="relative w-full overflow-hidden h-44 rounded-md">
+                      <section className="w-full h-44 overflow-hidden rounded-md">
                         <Image
                           imageURL={project.img}
-                          className="rounded-md  w-full  absolute top-0 z-0"
+                          className="rounded-md w-full h-full object-cover object-top"
                         />
                       </section>
                       <h3 className="capitalize m-5 text-center text-neutral-200 text-lg font-semibold leading-5">
@@ -147,16 +147,18 @@ const TabsProjects = () => {
                         >
                           <Info size={20} strokeWidth={1} />
                         </Button>
-                        <Button
-                          title="preview"
-                          className="main-btn text-[14px] cursor-pointer"
-                          width="w-32"
-                          height="h-8"
-                          target="_blank"
-                          to={project.demo}
-                        >
-                          <Eye size={20} strokeWidth={1} />
-                        </Button>
+                        {project.demo && (
+                          <Button
+                            title="preview"
+                            className="main-btn text-[14px] cursor-pointer"
+                            width="w-32"
+                            height="h-8"
+                            target="_blank"
+                            to={project.demo}
+                          >
+                            <Eye size={20} strokeWidth={1} />
+                          </Button>
+                        )}
                       </section>
                     </section>
                   ))}

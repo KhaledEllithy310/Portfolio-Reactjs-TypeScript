@@ -92,3 +92,29 @@ body {
 .h-home {
   height: calc(100vh - 73px);
 }
+
+.project-item img {
+  transition: all 4s;
+  /* object-position: top; */
+  /* object-fit: cover; */
+}
+
+.project-item:hover img {
+  object-position: bottom center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 20px;
+}

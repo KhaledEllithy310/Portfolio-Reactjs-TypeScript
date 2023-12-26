@@ -1,9 +1,9 @@
 import Image from "../../components/Ui/Image";
-import { imagePortfolio } from "../../Utils/constants";
 import Button from "../../components/Ui/ButtonLink";
 import Description from "../../components/Description/Description";
 import Skills from "../../components/Skills/Skills";
 import PageTitle from "../../components/Ui/PageTitle";
+import { imagePortfolio } from "../../Data";
 
 interface IAboutUsProps {}
 // eslint-disable-next-line no-empty-pattern
