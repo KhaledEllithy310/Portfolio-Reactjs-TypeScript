@@ -35,13 +35,13 @@ const Footer = ({ className = "" }: IFooterProps) => {
       key={item.link}
       className="bg-background text-primary p-2 rounded-md hover:rotate-12 duration-200 hover:bg-primary hover:text-secondary"
     >
-      <a href={item.link} target="_blank">
+      <a href={item.link} target="_blank" aria-label="connect to me">
         {item.img}
       </a>
     </li>
   ));
   return (
-    <section className={`bg-secondary ${className} mt-auto`}>
+    <footer className={`bg-secondary ${className} mt-auto`}>
       <section className="container py-2 flex flex-col gap-3 md:flex-row md:justify-between items-center justify-center">
         <section className="flex flex-shrink-0 items-center">
           <Link to={""}>
@@ -60,7 +60,7 @@ const Footer = ({ className = "" }: IFooterProps) => {
         </strong>
         <ul className="flex gap-2 items-center">{renderSocialIcons}</ul>
       </section>
-    </section>
+    </footer>
   );
 };
 
