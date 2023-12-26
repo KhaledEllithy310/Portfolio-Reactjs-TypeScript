@@ -144,7 +144,7 @@ export const projects = {
       GitHub: "https://github.com/KhaledEllithy310/CounterApp-React.Js",
     },
     {
-      img: "images/projects/counterApp.png",
+      img: "images/projects/portfolio.png",
       title: "my website",
       demo: "https://khaledellithy-portfolio.vercel.app/",
       GitHub:
