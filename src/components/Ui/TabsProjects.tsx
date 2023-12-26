@@ -133,7 +133,7 @@ const TabsProjects = () => {
                           className="rounded-md w-full h-full object-cover object-top"
                         />
                       </section>
-                      <h3 className="capitalize m-5 text-center text-neutral-200 text-lg font-semibold leading-5">
+                      <h3 className="capitalize m-5 text-center text-neutral-200 text-lg font-semibold leading-6">
                         {project.title}
                       </h3>
 

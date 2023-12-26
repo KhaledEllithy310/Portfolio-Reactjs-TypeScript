@@ -13,6 +13,7 @@ function classNames(...classes: string[]) {
 
 const Navbar = ({ navigation }: INavbarProps) => {
   const location = useLocation();
+  console.log(location);
 
   return (
     <Disclosure

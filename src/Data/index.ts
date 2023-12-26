@@ -4,7 +4,7 @@ export const imagePortfolio = "images/portfolio.jpg";
 export const logo = "images/logo/logo-no-background.png";
 
 export const navigation: INavigation[] = [
-  { name: "home", to: "" },
+  { name: "home", to: "/" },
   { name: "about us", to: "/about" },
   // { name: "services", to: "/services" },
   { name: "portfolio", to: "/portfolio" },
@@ -142,6 +142,13 @@ export const projects = {
       title: "counter app",
       demo: "https://counter-app-react-js-psi.vercel.app/",
       GitHub: "https://github.com/KhaledEllithy310/CounterApp-React.Js",
+    },
+    {
+      img: "images/projects/counterApp.png",
+      title: "my website",
+      demo: "https://khaledellithy-portfolio.vercel.app/",
+      GitHub:
+        "https://github.com/KhaledEllithy310/Portfolio-Reactjs-TypeScript",
     },
     // {
     //   img: "images/projects/fashion.png",
