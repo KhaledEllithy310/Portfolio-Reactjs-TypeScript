@@ -13,7 +13,7 @@ const Skills = ({}: ISkillsProps) => {
             Languages, Technologies & Tools
           </p>
         </header>
-        <body className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 gap-5 ">
+        <section className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 gap-5 ">
           {skills.map((skill) => (
             <div
               className="bg-secondary rounded-md text-center p-3 outline-primary outline-1 hover:outline hover:shadow-primary shadow-md"
@@ -28,7 +28,7 @@ const Skills = ({}: ISkillsProps) => {
               </p>
             </div>
           ))}
-        </body>
+        </section>
       </main>
     </section>
   );

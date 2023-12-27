@@ -1,5 +1,5 @@
 import Image from "../../components/Ui/Image";
-import Button from "../../components/Ui/ButtonLink";
+// import Button from "../../components/Ui/ButtonLink";
 import Description from "../../components/Description/Description";
 import Skills from "../../components/Skills/Skills";
 import PageTitle from "../../components/Ui/PageTitle";
@@ -33,13 +33,13 @@ const AboutUs = ({}: IAboutUsProps) => {
           </section>
           <Description className="text-neutral-300 leading-8 space-y-4 my-4" />
 
-          <Button
+          {/* <Button
             title="more details"
             className="uppercase main-btn hover:bg-transparent hover:text-primary outline-primary outline-1 hover:outline transition-all duration-200"
             width="w-40"
             height="h-11"
             to={""}
-          />
+          /> */}
         </section>
 
         <Skills />

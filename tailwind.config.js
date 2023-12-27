@@ -10,14 +10,6 @@ export default {
         secondary: "var(--secondary)",
         accent: "var(--accent)",
       },
-      fontFamily: {
-        Kalnia: ["Kalnia", "serif"],
-        poppins: ["Poppins", "serif"],
-      },
-      textShadow: {
-        multiple:
-          "2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgba(0,0,0,.2)",
-      },
       container: {
         padding: {
           DEFAULT: "1rem",
