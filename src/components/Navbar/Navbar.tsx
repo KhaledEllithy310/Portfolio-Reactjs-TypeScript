@@ -63,7 +63,7 @@ const Navbar = ({ navigation }: INavbarProps) => {
                 <a
                   href='https://www.linkedin.com/in/khaled-ellithy-74933826b/'
                   aria-label='contact us'
-                  className='hidden md:flex items-center gap-2 bg-background border border-white text-white p-1.5 rounded-md  duration-200 hover:bg-primary hover:text-secondary hover:border-primary '
+                  className='hidden md:flex items-center gap-2 bg-primary text-secondary p-1.5 rounded-md  duration-200 hover:bg-primary2 hover:text-secondary hover:border-primary '
                 >
                   <span className='w-7 h-7 '>
                     {/* <img src={icons.linkedin} alt='linkedin' /> */}

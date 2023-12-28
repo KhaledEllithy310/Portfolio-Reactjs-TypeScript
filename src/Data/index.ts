@@ -178,16 +178,15 @@ export const projects = {
       isLong: false
     },
     {
-      img: 'images/projects/counterApp.png',
-      title: 'counter app',
-      demo: 'https://counter-app-react-js-psi.vercel.app/',
-      GitHub: 'https://github.com/KhaledEllithy310/CounterApp-React.Js',
+      img: 'images/projects/Clone-React.js-Docs.png',
+      title: 'Clone React.js Docs',
+      demo: 'https://clone-react-js-docs.vercel.app/',
+      GitHub: 'https://github.com/KhaledEllithy310/Clone-React.js-Docs',
       techs: [
         icons.css3,
-        icons.js,
+        icons.Typescript,
         icons.react,
-        icons.bootstrap,
-        icons.redux,
+        icons.tailwindcss,
         icons.Vite
       ],
       isLong: false
@@ -212,6 +211,18 @@ export const projects = {
         icons.reactBootstrap,
         icons.redux,
         icons.Vite
+      ],
+      isLong: false
+    },
+    {
+      img: 'images/projects/sortCars.png',
+      title: 'sorting cars',
+      demo: 'https://car-task.vercel.app/',
+      GitHub: 'https://github.com/KhaledEllithy310/CarTask-React',
+      techs: [
+        icons.css3,
+        icons.Typescript,
+        icons.react,
       ],
       isLong: false
     }
@@ -258,6 +269,22 @@ export const projects = {
       GitHub: 'https://github.com/KhaledEllithy310/CrudSystem-Js',
       techs: [icons.HTML5, icons.css3, icons.js],
       isLong: true
+    },
+    {
+      img: 'images/projects/todolist.png',
+      title: 'to do app',
+      demo: 'https://to-do-list-steel-theta-20.vercel.app/',
+      GitHub: 'https://github.com/KhaledEllithy310/ToDo-Js',
+      techs: [icons.HTML5, icons.css3, icons.js],
+      isLong: false
+    },
+    {
+      img: 'images/projects/paintApp.png',
+      title: 'paint app',
+      demo: 'https://paint-app-ten.vercel.app/',
+      GitHub: 'https://github.com/KhaledEllithy310/PaintApp-js',
+      techs: [icons.HTML5, icons.css3, icons.js],
+      isLong: false
     }
   ],
   ui: [

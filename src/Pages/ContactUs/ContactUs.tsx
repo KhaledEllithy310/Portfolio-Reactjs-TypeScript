@@ -42,10 +42,10 @@ const ContactUs = ({}: IContactUsProps) => {
           </section>
         </section>
         {/* contact info */}
-        <section className='flex flex-col'>
-          <section>
+        <section className='grid grid-cols-1 sm:grid-cols-2 gap-10 py-4'>
+          <section className='sm:order-2'>
             <SecondaryTitle title='contact info' />
-            <section className='grid grid-cols-2 justify-start gap-3'>
+            <section className='grid grid-cols-1 md:grid-cols-2 justify-start gap-3'>
               {contactInfo.map((item, index) => {
                 return (
                   <section

@@ -71,9 +71,9 @@ const FormContact = ({}: IFormContactProps) => {
   ))
 
   return (
-    <div className='flex min-h-full flex-1 flex-col py-12'>
+    <div className='flex min-h-full flex-1 flex-col'>
       <SecondaryTitle title='start message me' />
-      <div className='sm:mx-auto sm:w-full grid grid-cols-1 md:grid-cols-2 gap-9 items-center'>
+      <div className='sm:mx-auto sm:w-full '>
         <form
           className='space-y-4'
           ref={form}

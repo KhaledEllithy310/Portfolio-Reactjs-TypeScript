@@ -9,6 +9,7 @@ export default {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         accent: "var(--accent)",
+        primary2: "var(--primary2)",
       },
       container: {
         padding: {
