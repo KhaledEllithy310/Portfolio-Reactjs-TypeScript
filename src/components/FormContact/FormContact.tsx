@@ -18,7 +18,7 @@ const FormContact = ({}: IFormContactProps) => {
 
   //----------HANDLERS----------//
   const contactSchema = z.object({
-    name: z.string().min(3, 'first name is required least 3 characters'),
+    name: z.string().min(3, 'first name is required at least 3 characters'),
     email: z.string().min(3, 'email is required').email('enter valid email'),
     message: z.string().min(10, 'message is required at least 10 characters'),
     subject: z.string().min(5, 'subject is required at least 5 characters')

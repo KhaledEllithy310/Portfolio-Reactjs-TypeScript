@@ -7,6 +7,7 @@ import { projects } from '../../Data'
 function classNames (...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
+console.log(Object.values(projects))
 
 const TabsProjects = () => {
   return (
