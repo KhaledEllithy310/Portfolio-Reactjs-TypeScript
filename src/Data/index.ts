@@ -1,6 +1,8 @@
 import { IFormInputs, INavigation } from "../Interfaces";
 
-export const imagePortfolio = "images/portfolio.jpg";
+export const imageAbout = "images/portfolio.jpeg";
+export const imageHome = "images/khaledEllithy.jpeg";
+
 export const logo = "images/logo/logo-no-background.png";
 
 export const navigation: INavigation[] = [

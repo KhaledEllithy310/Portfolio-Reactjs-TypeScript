@@ -3,7 +3,7 @@ import Image from "../../components/Ui/Image";
 import Description from "../../components/Description/Description";
 import Skills from "../../components/Skills/Skills";
 import PageTitle from "../../components/Ui/PageTitle";
-import { imagePortfolio } from "../../Data";
+import { imageAbout } from "../../Data";
 
 interface IAboutUsProps {}
 // eslint-disable-next-line no-empty-pattern
@@ -18,7 +18,7 @@ const AboutUs = ({}: IAboutUsProps) => {
         <section className="bg-secondary p-7 rounded-2xl my-5">
           <section className="flex items-center justify-center space-x-3 md:space-x-10">
             <Image
-              imageURL={imagePortfolio}
+              imageURL={imageAbout}
               className="rounded-full w-20 h-20 md:w-28 md:h-28"
             />
             <section className="text-white ">
@@ -32,16 +32,7 @@ const AboutUs = ({}: IAboutUsProps) => {
             {/* description about me */}
           </section>
           <Description className="text-neutral-300 leading-8 space-y-4 my-4" />
-
-          {/* <Button
-            title="more details"
-            className="uppercase main-btn hover:bg-transparent hover:text-primary outline-primary outline-1 hover:outline transition-all duration-200"
-            width="w-40"
-            height="h-11"
-            to={""}
-          /> */}
         </section>
-
         <Skills />
       </main>
     </section>
