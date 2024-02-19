@@ -197,6 +197,38 @@ export const projects = {
       isLong: true,
     },
     {
+      img: "images/projects/Shipment Tracking.png",
+      title: "Shipment Tracking",
+      demo: "https://bosta-app.vercel.app/",
+      GitHub:
+        "https://github.com/KhaledEllithy310/Bosta-App-Reactjs-TypeScript",
+      techs: [
+        icons.css3,
+        icons.Typescript,
+        icons.react,
+        icons.mui,
+        icons.tailwindcss,
+        icons.Vite,
+      ],
+      isLong: true,
+    },
+    {
+      img: "images/projects/Techno E-commerce.png",
+      title: "Techno E-commerce",
+      demo: "https://e-commerce-techno.vercel.app/",
+      GitHub:
+        "https://github.com/KhaledEllithy310/E-Commerce-Reactjs-TypeScript",
+      techs: [
+        icons.css3,
+        icons.Typescript,
+        icons.react,
+        icons.mui,
+        icons.tailwindcss,
+        icons.Vite,
+      ],
+      isLong: true,
+    },
+    {
       img: "images/projects/Clone-React.js-Docs.png",
       title: "Clone React.js Docs",
       demo: "https://clone-react-js-docs.vercel.app/",
